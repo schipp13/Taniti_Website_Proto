@@ -1,0 +1,93 @@
+body {
+font-size: 100%;
+}
+
+header {
+background-color: lightgrey;
+width: auto;
+height: 550px;
+border-bottom: solid black 5px;
+}
+
+footer {
+border-top: solid black 5px;
+width: auto;
+height: 80px;
+}
+
+h1 {
+font-size: 2.5em;	
+}
+
+p{
+margin-left: auto;
+margin-right: auto;
+font-size: 1.25em;
+white-space: wrap;
+width: 85%; 
+}
+
+.contentContainer{
+text-align: center;	
+}
+
+.column {
+  display: inline-block;
+  width: auto;
+  margin: 25px;
+  padding: 15px;
+}
+
+.heroImage{
+width: 100%;
+height: 550px;
+z-index: 1;
+}
+
+.smilesImage {
+margin-left: auto;
+margin-right: auto;
+width: 425px;
+height: 255px;
+border: solid black 3px;
+}
+
+.astroImage {
+margin-left: auto;
+margin-right: auto;
+width: 550px;
+height: 250px;
+border: solid black 3px;
+}
+
+.footerLink {
+ width: 75px;
+ height: 45px;
+ margin: 10px;
+ border: solid  black 2px;
+ border-radius: 50%;
+ background-color: grey;
+}
+
+#bookingBar {
+margin-left: auto;
+margin-right: auto;
+width: 38%;
+height: 35px;
+border: solid black 2px;
+background-color: white;
+z-index: 2;
+position: relative;
+top: -150px;
+}
+
+#linkContainer {
+	width: 20%;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
