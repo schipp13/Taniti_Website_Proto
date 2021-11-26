@@ -10,8 +10,8 @@
 
 <header>
 	<div class="heroImageContainer">
-		<!-- <img src="" alt=""> -->
-		<img src="./Resources/Images/island.png" alt="island">
+	
+		<img class="heroImage" src="./Resources/Images/island.png" alt="island">
 		<div id="bookingBar">
 		<!-- Look this bar up -->
 		</div>
