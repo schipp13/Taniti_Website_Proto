@@ -27,15 +27,29 @@ text-align: center;
 p{
 margin-left: auto;
 margin-right: auto;
-font-size: 1.25em;
+font-size: 16pt;
 width: 85%; 
 padding: 15px;
+}
+
+.question {
+margin-top: 20px;
+margin-left: 11%;
+text-align: left;
+font-size: 20pt;	
+}
+
+.answer {
+margin-top: 15px;
+margin-left: 13%;
+text-align: left;
+font-size: 16pt;
 }
 
 .bundleContainer {
 padding: 25px;
 margin: 15px;
-border: solid black 1px;
+
 }
 
 .columns {
@@ -45,6 +59,12 @@ margin-left: auto;
 margin-right: auto;
 width: 30%;
 padding: 10px;
+
+}
+
+.price .grey{
+font-size: 18pt;
+border: solid black 1px;
 }
 
 .price {
@@ -67,19 +87,16 @@ font-size: 24px;
 }
 
 .price li {
-border-bottom: 1px solid #eee;
-padding: 20px;
+padding: 15px;
 text-align: center;
-}
+font-size: 15pt;
 
-.price .grey {
-font-size: 16px;
 }
 
 .button {
 background-color: lightgrey;
 border: 1px solid black;
-border-radius: 40%;
+border-radius: 42%;
 color: black;
 padding: 10px 25px;
 text-align: center;
@@ -137,13 +154,23 @@ height: 315px;
 .entertainment-right{
 word-wrap: break-word;
 position: relative;
-padding-top: 20px;
+padding-top: 10px;
 width: 100%;
 height: 315px;
 }
 
+.entertainment-right > p {
+margin-top: 5px;
+}
+
+.entertainment-left > p {	
+margin-top: 5px;
+}
+
+
 .contentContainer{
 text-align: center;	
+padding: 15px;
 }
 
 .column {
@@ -160,21 +187,19 @@ background-size: 100%, 100%;
 height: 150px;
 width: 300px;
 margin: auto;
-border: solid red 1px;
+border: solid black 1px;
 }
 
 .smilesImage {
 margin: 15px;
 float: left;
-width: 425px;
-height: 255px;
+height: 250px;
 border: solid black 3px;
 }
 
 .astroImage {
 margin: 15px;
 float: right;
-width: 550px;
 height: 250px;
 border: solid black 3px;
 }
@@ -188,6 +213,12 @@ margin-right: auto;
 border: solid  black 2px;
 border-radius: 50%;
 background-color: grey;
+}
+
+#trails {
+text-align: left;
+margin-left: 15%;
+font-size: 16pt;
 }
 
 #tripBundleClickToAction {
